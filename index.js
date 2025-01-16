@@ -58,5 +58,6 @@ function loop(frame) {
     drawTextBox((screen.width / 2) - (screen.width / 4), (screen.height / 2), (screen.width / 2), (screen.height / 8), "PLAYERS: 2", screen.h3, "lightblue", "black")
     drawTextBox((screen.width / 2) - (screen.width / 4), (screen.height / 2) + (screen.height / 8), (screen.width / 2), (screen.height / 8), "SEASON 1", screen.h3, "yellow", "black")
 
+    
     //drawTextBox(500, 500, 1000, 1000, Math.round(frame / 60), "50px serif" , "white", "black")
 }
